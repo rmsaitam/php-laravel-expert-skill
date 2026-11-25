@@ -4,10 +4,10 @@
   "description": "Generates and refactors version-aware PHP and Laravel code following official documentation, established codebase patterns, native Laravel features, and Pest unit plus feature tests with an 80% coverage gate on business logic.",
   "author": {
     "name": "Reginaldo (rmsaitam)",
-    "url": "https://github.com/rmsaitam/skill-php-laravel-expert"
+    "url": "https://github.com/rmsaitam/php-laravel-expert"
   },
-  "homepage": "https://github.com/rmsaitam/skill-php-laravel-expert",
-  "repository": "https://github.com/rmsaitam/skill-php-laravel-expert",
+  "homepage": "https://github.com/rmsaitam/php-laravel-expert",
+  "repository": "https://github.com/rmsaitam/php-laravel-expert",
   "license": "MIT",
   "keywords": [
     "php",
@@ -28,7 +28,7 @@
     "developerName": "Reginaldo (rmsaitam)",
     "category": "Developer Tools",
     "capabilities": ["Interactive", "Read", "Write"],
-    "websiteURL": "https://github.com/rmsaitam/skill-php-laravel-expert",
+    "websiteURL": "https://github.com/rmsaitam/php-laravel-expert",
     "defaultPrompt": [
       "Implement this feature using the PHP and Laravel versions detected in this project",
       "Review my Laravel code against the official guides and existing codebase conventions",

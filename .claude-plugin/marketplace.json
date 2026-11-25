@@ -4,7 +4,7 @@
   "description": "PHP and Laravel implementation plugin for AI coding agents.",
   "owner": {
     "name": "Reginaldo (rmsaitam)",
-    "url": "https://github.com/rmsaitam/skill-php-laravel-expert"
+    "url": "https://github.com/rmsaitam/php-laravel-expert"
   },
   "plugins": [
     {
