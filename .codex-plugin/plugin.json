@@ -1,0 +1,42 @@
+{
+  "name": "php-laravel",
+  "version": "0.1.0",
+  "description": "Generates and refactors version-aware PHP and Laravel code following official documentation, established codebase patterns, native Laravel features, and Pest unit plus feature tests with an 80% coverage gate on business logic.",
+  "author": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-php-laravel-expert"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-php-laravel-expert",
+  "repository": "https://github.com/rmsaitam/skill-php-laravel-expert",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "laravel",
+    "eloquent",
+    "pest",
+    "form-requests",
+    "policies",
+    "api-resources",
+    "queues",
+    "coverage"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PHP Laravel",
+    "shortDescription": "Implement version-aware Laravel code with Pest unit and feature tests",
+    "longDescription": "Detects the PHP and Laravel versions from composer.json and composer.lock before suggesting any code, follows the codebase architecture and official Laravel guides, prefers native Laravel features over new dependencies, writes Pest unit and feature tests with an 80% coverage gate on business logic, and produces a validated PHP-LARAVEL-IMPL.md artifact.",
+    "developerName": "Reginaldo (rmsaitam)",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/rmsaitam/skill-php-laravel-expert",
+    "defaultPrompt": [
+      "Implement this feature using the PHP and Laravel versions detected in this project",
+      "Review my Laravel code against the official guides and existing codebase conventions",
+      "Write Pest unit and feature tests with at least 80% coverage on business logic"
+    ],
+    "brandColor": "#FF2D20",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}
