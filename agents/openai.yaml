@@ -1,0 +1,4 @@
+interface:
+  display_name: "PHP Laravel"
+  short_description: "Implement version-aware Laravel code with Pest unit and feature tests"
+  default_prompt: "Use $php-laravel to detect the PHP and Laravel versions first, follow the codebase and official guides, prefer native Laravel features, and write Pest unit and feature tests with at least 80% coverage on business logic."
