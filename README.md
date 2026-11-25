@@ -1,6 +1,6 @@
 # PHP Laravel
 
-[![skills.sh](https://skills.sh/b/rmsaitam/skill-php-laravel-expert)](https://skills.sh/rmsaitam/skill-php-laravel-expert)
+[![skills.sh](https://skills.sh/b/rmsaitam/php-laravel-expert-skill)](https://skills.sh/rmsaitam/php-laravel-expert-skill)
 
 A version-aware PHP and Laravel implementation skill for coding agents. Before suggesting any class, API, validation rule or dependency, the skill inspects `composer.json` and `composer.lock` to identify the exact PHP version, Laravel version and installed packages. If no `composer.json` is available, it stops and asks for the descriptor or the exact versions instead of guessing.
 
@@ -20,15 +20,15 @@ The skill follows the conventions already present in the codebase and the offici
 ## Install
 
 ```bash
-npx skills add rmsaitam/skill-php-laravel-expert
-npx skills add rmsaitam/skill-php-laravel-expert -g -y
-npx skills add rmsaitam/skill-php-laravel-expert --list
+npx skills add rmsaitam/php-laravel-expert-skill
+npx skills add rmsaitam/php-laravel-expert-skill -g -y
+npx skills add rmsaitam/php-laravel-expert-skill --list
 ```
 
 Claude Code:
 
 ```text
-/plugin marketplace add rmsaitam/skill-php-laravel-expert
+/plugin marketplace add rmsaitam/php-laravel-expert-skill
 /plugin install php-laravel
 ```
 
