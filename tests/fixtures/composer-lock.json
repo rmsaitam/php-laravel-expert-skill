@@ -1,0 +1,29 @@
+{
+  "packages": [
+    {
+      "name": "laravel/framework",
+      "version": "v12.47.0"
+    },
+    {
+      "name": "laravel/sanctum",
+      "version": "v4.0.2"
+    }
+  ],
+  "packages-dev": [
+    {
+      "name": "pestphp/pest",
+      "version": "v3.8.7"
+    },
+    {
+      "name": "pestphp/pest-plugin-laravel",
+      "version": "v3.0.2"
+    },
+    {
+      "name": "mockery/mockery",
+      "version": "v1.6.12"
+    }
+  ],
+  "platform-overrides": {
+    "php": "8.3.4"
+  }
+}
