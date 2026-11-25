@@ -149,7 +149,7 @@ Use `--strict` for a stricter gate and `--min-coverage N` only when the user exp
 Answer in exactly this order:
 
 1. **Brief Analysis** — alignment with existing patterns, detected versions and key design decisions.
-2. **Clean and Complete Code** — only the necessary code, fully typed, with every modern PHP feature gated by the detected version and no placeholders.
+2. **Clean and Complete Code** — only the necessary code, fully typed, with every modern PHP feature gated by the detected version and no stub values.
 3. **Configurations** — exact `.env.example`, `config/*.php` or `phpunit.xml` additions, or `No changes.`
 
 Finish with validation commands, measured coverage and remaining risks. Do not end with an approval verdict.

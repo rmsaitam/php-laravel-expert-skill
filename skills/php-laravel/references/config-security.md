@@ -2,7 +2,7 @@
 
 ## Configuration
 
-Read runtime values with `config('services.payment.base_uri')`, never with `env()` outside `config/*.php`. Declare every new key in `.env.example` with an empty or obvious placeholder value, then document it in the **Configurations** section of the artifact.
+Read runtime values with `config('services.payment.base_uri')`, never with `env()` outside `config/*.php`. Declare every new key in `.env.example` with an empty or obvious development value, then document it in the **Configurations** section of the artifact.
 
 ## Secrets
 

@@ -45,7 +45,7 @@ def test_wrong_artifact_type(valid):
 
 
 def test_wrong_artifact_version(valid):
-    text = mutate(valid, "version=1 -->", "version=2 -->", 1)
+    text = mutate(valid, "version=1 -->", "version=2 -->")
 
     assert "artifact-version" in codes(run(text))
 
@@ -288,7 +288,7 @@ def test_missing_evidence(valid):
 
 
 def test_evidence_must_include_passed_status(valid):
-    text = mutate(valid, "status=passed -->", "status=partial -->", 1)
+    text = mutate(valid, "status=passed -->", "status=partial -->")
 
     assert "evidence-not-passed" in codes(run(text))
 
