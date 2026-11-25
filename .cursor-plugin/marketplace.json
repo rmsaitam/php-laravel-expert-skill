@@ -1,0 +1,18 @@
+{
+  "name": "php-laravel",
+  "owner": {
+    "name": "Reginaldo (rmsaitam)"
+  },
+  "metadata": {
+    "description": "PHP and Laravel implementation plugin for AI coding agents.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "php-laravel",
+      "description": "Generates and refactors version-aware PHP and Laravel code following official documentation, established codebase patterns, native Laravel features, and Pest unit plus feature tests with an 80% coverage gate on business logic.",
+      "version": "0.1.0",
+      "source": "."
+    }
+  ]
+}
