@@ -80,7 +80,7 @@ Then:
 
 ### Gate 2: Load repository standards
 
-Read `composer.json`, `README.md`, `CONTRIBUTING.md`, `ARCHITECTURE.md`, ADRs, `phpunit.xml`, `tests/Pest.php` and the nearest existing example of the class being changed. From `.env.example`, extract key names only: ignore everything after `=`, never read `.env`, and never copy, quote or emit a value into context or the artifact.
+Read `composer.json`, `README.md`, `CONTRIBUTING.md`, `ARCHITECTURE.md`, ADRs, `phpunit.xml`, `tests/Pest.php` and the nearest existing example of the class being changed. Do not open `.env` or `.env.example`; use only the configuration key names produced by the detector. Never copy, quote or emit any environment value into context or the artifact.
 
 Capture namespace root, directory layout, naming, Form Request style, authorization style, DTO/Resource mapping, error mapping, transaction style, Eloquent patterns, Pest layout and configuration key prefixes.
 

@@ -1,6 +1,6 @@
 # Codebase conventions
 
-Read these files before designing any change: `composer.json`, `composer.lock`, `README.md`, `CONTRIBUTING.md`, `ARCHITECTURE.md`, ADRs under `docs/`, `phpunit.xml`, `tests/Pest.php`, and the nearest existing example of the class being changed. From `.env.example`, extract key names only: ignore everything after `=`, never read `.env`, and never copy, quote or emit a value into context or the artifact.
+Read these files before designing any change: `composer.json`, `composer.lock`, `README.md`, `CONTRIBUTING.md`, `ARCHITECTURE.md`, ADRs under `docs/`, `phpunit.xml`, `tests/Pest.php`, and the nearest existing example of the class being changed. Do not open `.env` or `.env.example`; use only the configuration key names produced by the detector and never copy, quote or emit an environment value into context or the artifact.
 
 ## Capture table
 
